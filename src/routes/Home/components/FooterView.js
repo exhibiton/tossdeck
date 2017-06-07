@@ -13,7 +13,7 @@ const FooterView = () =>
         </div>
       </div>
     </div>
-    <div className='footer-bottom flex-row flex-vc flex-hc t4 color-white'>
+    <div className='footer-bottom flex-row flex-vc flex-hc t4 color-white phm'>
       When sending your deck, please use links like dropbox or google docs instead of attachments.
     </div>
   </div>

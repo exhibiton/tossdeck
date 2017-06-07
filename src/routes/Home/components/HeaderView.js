@@ -4,7 +4,7 @@ import iMac from '../assets/iMac.png'
 
 const HeaderView = () =>
   <div className='header'>
-    <div className='flex-col'>
+    <div className='limit-width flex-col'>
 
       <div className='pvs flex-row flex-ha'>
         <img className='color-dark-blue' alt='TossDeck' src={logo} />
@@ -15,8 +15,8 @@ const HeaderView = () =>
         </a>
       </div>
 
-      <div className='flex-row flex-ha mhxl' style={{ paddingTop: 169 }}>
-        <div className='flex-col mtm'>
+      <div className='header__content flex-row flex-ha'>
+        <div className='flex-col mtm mbm'>
           <h1 className='color-white header-title mbm'>
             Toss your pitch <br />
             deck, receive free feedback
