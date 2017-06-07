@@ -106,12 +106,12 @@ a:hover {
   .desktop-only {display:none;}
   .phone-only {display:block;}
 }
+
 .btn:hover {
   background-color: hotpink;
 }
 
 .mid-box {
-  min-height: 6.5625rem;
   background-color: #f9fafa;
   border: solid 0.0625rem #eeeeee;
   word-spacing: -0.3rem;
@@ -129,14 +129,6 @@ a:hover {
 
 .btn:hover {
   background-color: hotpink;
-}
-
-.mid-box {
-  min-height: 6.5625rem;
-  background-color: #f9fafa;
-  border: solid 0.0625rem #eeeeee;
-  word-spacing: -0.3rem;
-  letter-spacing: -0.0125rem;
 }
 
 .desc {
