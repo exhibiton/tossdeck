@@ -3,7 +3,7 @@ import logos from '../assets/logos.png'
 
 const FooterView = () =>
   <div>
-    <div className='footer-top pvl'>
+    <div className='footer-top pvl phs'>
       <div className='flex-col flex-vc'>
         <div className='t2'>
             Investors and advisors who have joined our companies have invested in other companies like:

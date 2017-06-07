@@ -15,7 +15,7 @@ const HeaderView = () =>
         </a>
       </div>
 
-      <div className='flex-row flex-ha' style={{ paddingRight: 335, paddingLeft: 335, paddingTop: 169 }}>
+      <div className='flex-row flex-ha mhxl' style={{ paddingTop: 169 }}>
         <div className='flex-col mtm'>
           <h1 className='color-white header-title mbm'>
             Toss your pitch <br />
@@ -28,7 +28,7 @@ const HeaderView = () =>
           </a>
         </div>
         <div>
-          <img src={iMac} />
+          <img className='desktop-only' src={iMac} />
         </div>
       </div>
     </div>

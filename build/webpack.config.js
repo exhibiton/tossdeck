@@ -174,7 +174,6 @@ config.module.rules.push({
 // ------------------------------------
 config.plugins.push(new HtmlWebpackPlugin({
   template: inProjectSrc('index.html'),
-  favicon: 'src/static/favicon.ico',
   inject: true,
   minify: {
     collapseWhitespace: true,
