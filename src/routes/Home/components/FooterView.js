@@ -8,7 +8,7 @@ const FooterView = () =>
         <div className='t2'>
             Investors and advisors who have joined our companies have invested in other companies like:
         </div>
-        <div className='pvl'>
+        <div className='ptm pbs'>
           <img src={logos} />
         </div>
       </div>
