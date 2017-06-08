@@ -8,12 +8,12 @@ const FooterView = () =>
         <div className='t2'>
             Investors and advisors who have joined our companies have invested in other companies like:
         </div>
-        <div className='pvl'>
+        <div className='ptm pbs'>
           <img src={logos} />
         </div>
       </div>
     </div>
-    <div className='footer-bottom flex-row flex-vc flex-hc t4 color-white'>
+    <div className='footer-bottom flex-row flex-vc flex-hc t4 color-white phm'>
       When sending your deck, please use links like dropbox or google docs instead of attachments.
     </div>
   </div>

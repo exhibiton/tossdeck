@@ -1,9 +1,9 @@
 import React from 'react'
 
 const MidContentView = () =>
-  <div className='flex-row-lt-desktop flex-hc-lt-desktop'>
+  <div className='limit-width flex-row-lt-desktop flex-hc-lt-desktop'>
     <div className='flex-row-desktop flex-ha-desktop flex-col-lt-desktop mvxl'>
-      <div className='left mbm mts'>
+      <div className='left mbm mts phm'>
         <div className='left-title t2 color-green font-bold'>
             Why?
         </div>
@@ -14,7 +14,7 @@ const MidContentView = () =>
             and create this website!
         </div>
       </div>
-      <div className='right mbm mts'>
+      <div className='right mbm mts phm'>
         <div className='color-green t2 font-bold'>
             Some background.
         </div>

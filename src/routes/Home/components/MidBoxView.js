@@ -1,11 +1,11 @@
 import React from 'react'
 
 const MidBoxView = () =>
-  <div className='flex mid-box flex-row-gt-tablet flex-col-lt-tablet flex-vc flex-hc color-black'>
-    <div className='t1 font-light'>Please send &nbsp;</div>
-    <div className='t1 font-bold'>links  &nbsp;</div>
-    <div className='t1 font-light'>to your deck - &nbsp;</div>
-    <div className='t1 font-bold'>no attachments.</div>
+  <div className='mid-box text-center color-black pvs phm'>
+    <span className='t1 font-light'>Please send &nbsp;</span>
+    <span className='t1 font-bold'>links  &nbsp;</span>
+    <span className='t1 font-light'>to your deck - &nbsp;</span>
+    <span className='t1 font-bold'>no attachments.</span>
   </div>
 
 export default MidBoxView
