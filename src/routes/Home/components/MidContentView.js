@@ -10,7 +10,7 @@ const MidContentView = () =>
         <div className='desc mts t2'>
             As a <strong>first-time founder</strong>, making Pitch Decks for the first time is hard.
             We remember this and we’ve lately helped others with their presentations
-            and found this <strong>fun and refreshing</strong>. So we decided to <strong>give back </strong>
+            and found this <strong>rewarding and exciting.</strong>. So we decided to <strong>give back </strong>
             and create this website!
         </div>
       </div>
@@ -19,10 +19,10 @@ const MidContentView = () =>
             Some background.
         </div>
         <div className='desc mts t2'>
-            We’ve raised financing with our presentations on <strong>several occasions </strong>
-            and have <strong>created and re-created</strong> ours too many times to count.
-            Also this is <strong>free</strong> so you have nothing to lose :)
-            And no we won't steal your idea, we're busy with our own.
+            We’ve raised financing with our presentations on <strong>several occasions </strong> for multiple products
+            and helped others do the same. To successfully raise money for our products, we have had to
+            <strong> iterate countless times</strong> on our decks.
+            We want to offer our help with this service for <strong>free</strong>.
         </div>
       </div>
     </div>

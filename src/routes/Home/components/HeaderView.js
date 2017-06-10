@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/tossDeck.svg'
+import logo from '../assets/tossDeck.png'
 import iMac from '../assets/iMac.png'
 
 const HeaderView = () =>
@@ -7,8 +7,10 @@ const HeaderView = () =>
     <div className='limit-width flex-col'>
 
       <div className='pvs flex-row flex-ha'>
-        <img className='color-dark-blue' alt='TossDeck' src={logo} />
-        <a href='mailto:decks@tossdeck.com' className='btn-link signup-btn flex-row flex-vc'>
+        <img className='color-dark-blue ' alt='TossDeck' src={logo} />
+        <a href='mailto:decks@tossdeck.com?subject=TossDeck PitchDeck Review&body=Hey,
+          here is a link to our Pitch Deck. Thanks for the help!'
+          className='btn-link signup-btn flex-row flex-vc'>
           <div className='t4 font-semibold color-white pas'>
             Send Deck
           </div>
@@ -21,7 +23,9 @@ const HeaderView = () =>
             Toss your pitch <br />
             deck, receive free feedback
           </h1>
-          <a href='mailto:decks@tossdeck.com' className='flex-row flex-vc flex-hc'>
+          <a href='mailto:decks@tossdeck.com?subject=TossDeck PitchDeck Review&body=Hey,
+            here is a link to our Pitch Deck. Thanks for the help!'
+            className='flex-row flex-vc flex-hc'>
             <div className='btn t4 color-white'>
               Send Your Deck Now
             </div>
